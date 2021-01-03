@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="JavaScript Calculator">
+    <title>JS Calculator</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="images/icons/icon.png" type="image/x-icon">
+</head>
+
+<body>
+    <center class="mainDiv">
+        <h1>Calculator</h1>
+        <form id="calForm" name="calc" action="">
+            <input name="display" type="text" class="answerDiv"><br>
+            <input value="0" type="button" onClick="calc.display.value+='0'">
+            <input value="1" type="button" onClick="calc.display.value+='1'">
+            <input value="2" type="button" onClick="calc.display.value+='2'">
+            <input value="+" type="button" class="addButton" onClick="calc.display.value+='+'"><br>
+            <input value="3" type="button" onClick="calc.display.value+='3'">
+            <input value="4" type="button" onClick="calc.display.value+='4'">
+            <input value="5" type="button" onClick="calc.display.value+='5'">
+            <input value="-" type="button" class="subButton" onClick="calc.display.value+='-'"><br>
+            <input value="6" type="button" onClick="calc.display.value+='6'">
+            <input value="7" type="button" onClick="calc.display.value+='7'">
+            <input value="8" type="button" onClick="calc.display.value+='8'">
+            <input value="x" type="button" class="mulButton" onClick="calc.display.value+='*'"><br>
+            <input value="9" type="button" onClick="calc.display.value+='9'">
+            <input value="C" type="button" class="clearButton" onClick="calc.display.value=''">
+            <input value="=" type="button" class="equalButton" onClick="calc.display.value=eval(calc.display.value)">
+            <input value="&#247;" type="button" class="divButton" onClick="calc.display.value+='/'">
+        </form>
+    </center>
+</body>
+<script src="javascript/index.js"></script>
+
+</html>
