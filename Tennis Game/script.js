@@ -3,7 +3,7 @@ var canvasContext
 var ballX = 50
 var ballY = 50
 var ballSpeedX = 10
-var ballSpeedY = 4
+var ballSpeedY = 5
 
 var player1Score = 0
 var player2Score = 0
